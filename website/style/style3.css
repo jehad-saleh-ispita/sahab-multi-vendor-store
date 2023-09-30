@@ -1,0 +1,40 @@
+
+.categories .items {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.categories .items .item {
+    margin-left: 30px;
+
+}
+
+.categories .items .item img {
+    background-color: #ffffff;
+    width: 75px;
+    height: 75px;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 8px black;
+} 
+.main {
+    background-image: url('img/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    position: relative;
+
+} 
+.col-sm-3{  
+   left: 85px;
+}
+.list-inline-item span{
+    float: left;
+    margin-left: -1035px; 
+    margin-top: 5px;
+}
